@@ -5,12 +5,12 @@ on:
     branches:
       - main
       - develop
-      - nesrine  # Le déploiement Docker se déclenchera sur cette branche
+      - master  # Le déploiement Docker se déclenchera sur cette branche
   pull_request:
     branches:
       - main
       - develop
-      - nesrine
+      - master
 
 jobs:
   # Étape 1 : Compilation et Tests
